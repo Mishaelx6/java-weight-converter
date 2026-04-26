@@ -17,7 +17,7 @@ if %ERRORLEVEL% NEQ 0 (
 echo Compilation successful!
 
 REM Run the application
-echo Running HelloWorld...
-java -cp build\classes HelloWorld
+echo Running WeightConverter...
+java -cp build\classes WeightConverter
 
 pause
